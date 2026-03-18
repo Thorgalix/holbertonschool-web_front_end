@@ -90,7 +90,7 @@ a:active {
     color: var(--color-primary);
 }
 
-[class^="col-"] {
+[class^="col-"], [class*=" col-"] {
     float: left;
     padding: 0.5rem;
 }
@@ -180,7 +180,7 @@ a:active {
     display: block;
 }
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
 
